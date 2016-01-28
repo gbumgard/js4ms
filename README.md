@@ -17,6 +17,8 @@ The primary interface for gaining access to AMT functionality is provided by the
 
 The components listed above are one of many that are used to implement an RTSP multicast reflector (server) that uses AMT to receive multicast media streams. The JWS application jars must be served from a servlet container to properly support JWS versioning and updates. I use my own Tomcat server for development, but have deployed the latest build of the web start application to Google App Engine at http://js4ms-rtsp-reflector.appspot.com.
 
+##### Note: The Maven .pom files still refer to the old Maven and google-code SVN repositories and need to be modified to work. I have no plans to update them at the moment, but will consider doing so if raised as an issue.
+
 -g.b.
 
 April 26, 2014
